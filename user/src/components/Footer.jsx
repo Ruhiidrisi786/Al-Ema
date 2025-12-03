@@ -49,10 +49,10 @@ const Footer = () => {
           {/* Right Section - Contact Info */}
           <Col xs={12} md={4}>
             <h5 className="fw-semibold mb-3">Contact Info</h5>
-            <p className="text-muted mb-1">contact@alema-industries.com</p>
-            <p className="text-muted mb-1">+1 (555) 123-4567</p>
+            <p className="text-muted mb-1">info@alemaindustries.com</p>
+            <p className="text-muted mb-1">+91 9004707592</p>
             <p className="text-muted">
-              1234 Industrial Way, Houston, TX 77001, USA
+              Malad (W), India
             </p>
           </Col>
         </Row>
