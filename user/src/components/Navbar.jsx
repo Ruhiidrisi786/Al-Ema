@@ -3,11 +3,12 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg fixed-top navbar-light bg-light py-2 px-5 shadow-sm">
+    <nav className="navbar navbar-expand-lg fixed-top navbar-light bg-light py-2 px-3  shadow-sm">
       {/* <div className="container"> */}
-      <a className="navbar-brand fs-3 fw-semi-bold" to="/">
+      <div className="navbar-brand fs-3 fw-semi-bold" to="/">
+        <img src="./src/assets/AEI.png" width="60" height="60" />
         AL-EMA INDUSTRIES
-      </a>
+      </div>
 
       {/* hamburger toggler */}
       <button
@@ -52,7 +53,7 @@ const Navbar = () => {
 
           <li className="nav-item">
             <Link className="nav-link" to="/contact">
-              Contact
+              Contact us
             </Link>
           </li>
         </ul>
