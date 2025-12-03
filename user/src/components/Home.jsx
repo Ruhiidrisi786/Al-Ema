@@ -10,14 +10,14 @@ import Footer from "./Footer";
 export default function Home() {
   return (
     <>
-      <Navbar />
+      {/* <Navbar /> */}
       <MainPage />
       <About />
       <Products />
       <Features />
       <Client />
       <Contact />
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 }
