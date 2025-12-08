@@ -1,13 +1,11 @@
-import React from "react";
+import { Link } from "react-router-dom";
 import { Container, Row, Col } from "react-bootstrap";
-
 
 const Footer = () => {
   return (
-    <footer style={{ padding: "60px 0 20px", textAlign: "center"}}>
+    <footer style={{ padding: "60px 0 20px", textAlign: "center" }}>
       <Container className="sm-12">
         <Row className="gy-4">
-          
           {/* Left Section - Company Info */}
           <Col xs={12} md={4}>
             <h4
@@ -25,22 +23,30 @@ const Footer = () => {
             <ul className="list-unstyled text-muted fs-6">
               <li className="mb-2">
                 <a href="#" className="text-muted text-decoration-none">
-                  About Us
+                  <Link className="nav-link" to="/about">
+                    About
+                  </Link>
                 </a>
               </li>
               <li className="mb-2">
                 <a href="#" className="text-muted text-decoration-none">
-                  Products
+                  <Link className="nav-link" to="/products">
+                    Products
+                  </Link>
                 </a>
               </li>
               <li className="mb-2">
                 <a href="#" className="text-muted text-decoration-none">
-                  Features
+                  <Link className="nav-link" to="/features">
+                    Features
+                  </Link>
                 </a>
               </li>
               <li>
                 <a href="#" className="text-muted text-decoration-none">
-                  Contact
+                  <Link className="nav-link" to="/contact">
+                    Contact us
+                  </Link>
                 </a>
               </li>
             </ul>
@@ -51,9 +57,7 @@ const Footer = () => {
             <h5 className="fw-semibold mb-3">Contact Info</h5>
             <p className="text-muted mb-1">info@alemaindustries.com</p>
             <p className="text-muted mb-1">+91 9004707592</p>
-            <p className="text-muted">
-              Malad (W), India
-            </p>
+            <p className="text-muted">Malad (W), India</p>
           </Col>
         </Row>
 
@@ -70,4 +74,3 @@ const Footer = () => {
 };
 
 export default Footer;
-
